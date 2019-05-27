@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+body{
+	font-family: 'Lato', sans-serif;
+    font-size: 16px;
+	color: #2d3950;
+
+}
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*header.....*/
+header{
+	padding: 20px 0;
+	background: black;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo h1{
+	color: #ffffff;
+}
+.banner-section{
+		background-image: url(../images/bg_banner.jpg);
+		min-height: 90vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+.library-content h1{
+	margin: 25px 0;
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.librar-content h1{
+	margin-top: 50px;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 1200;
+}
+.libra-content h1{
+	margin-top: 2px;
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 4400;
+}
+.libra-content a{
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	border: 5px solid #15a4fa;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 5px;
+	transition: all 0.4s;
+}
+.libra-content a:hover{
+	background-color: green;
+}
+.banne-section{
+		background-image: url(../images/ddg-bg.jpg);
+		min-height: 40vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+/*footer section.....*/
+footer{
+	background-color: black;
+	padding: 33px 0;
+}
+.copyright{
+	width: 100%;
+	text-align: center;
+
+}
+.copyright p{
+
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.what-we-do-section{
+	background-color: #ffffff;
+	
+	padding: 40px 10px 60px;
+	
+
+}
+.what-we-do{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	padding-top: 0px;
+	
+}
+.what-we-do-content{
+	position: relative;
+padding-top: 0;
+min-height: 240px;
+}
+.what-we-do-content p{
+	padding: 50px 50px;
+	text-align: left;
+}
